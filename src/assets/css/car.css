@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 26.67vw; }
+
+i, em {
+  font-style: normal; }
+
+img {
+  display: block; }
+
+body{
+  background: #f5f7f9}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  color: black; }
+
+ul, li {
+  list-style: none;
+  display: block; }
+
+.BMap_cpyCtrl
+{
+  display:none;
+}
+.anchorBL{
+  display:none;
+}
