@@ -24,7 +24,7 @@
       },
       methods:{
         handleScroll(){
-          var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
+          var scrollTop = document.documentElement.scrollTop || document.body.scrollTop
           var offsetTop = document.querySelector('#fixtop').offsetTop
           if (scrollTop > offsetTop) {
             this.flag = true

@@ -2,12 +2,23 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+
+
 import router from './router'
 import store from  './store'
 
-import "./assets/font/iconfont.css"
+
+// import './assets/css/car.css'
+import './assets/css/vip.css';
 import "./assets/css/product.css"
-import './assets/css/car.css'
+
+//require iconfont
+import "./assets/font/iconfont.css"
+import "./assets/fontz/iconfont.css"
+
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
 
 Vue.config.productionTip = false
 

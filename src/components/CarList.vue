@@ -1,6 +1,8 @@
 <template>
   <div class="K-st">
+
     <ul>
+      <p v-show="select">{{msg}}</p>
       <li class="K-li" v-for="(i,index) in List" :key="index">
         <div class="List">
           <a class="ListTit">
@@ -50,6 +52,8 @@
     name: "CarList",
     data() {
       return {
+        select:false,
+        msg:'还没有商品',
         List: [
           // {
           //   title: '小红书福利社',
@@ -77,7 +81,10 @@
       }
     },
     created(){
-      console.log(localStorage.getItem('temp'))
+
+      if(this.List.length === 0){
+          this.select=true
+      }
     },
     methods:{
       allChoose: function() {
@@ -122,6 +129,7 @@
         this.account()
       },
       all: function() {
+        localStorage.clear();
         for (var i = this.List.length - 1; i >= 0; i--) {
           console.log(i);
           if (this.List[i].show == true) {

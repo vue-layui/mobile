@@ -1,5 +1,5 @@
 <template>
-  <div class="price">
+  <div class="pricewwq">
     <div class="price1">
       <p>限时特价</p>
       <p>￥139</p>
@@ -52,7 +52,7 @@
   .class-a{
    color: red;
   }
-  .price{
+  .pricewwq{
     width: 100%;
     height: 1.6rem;
     border-bottom: 1px solid #eaeaea;

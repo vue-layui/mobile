@@ -13,7 +13,7 @@
   .top{
     width: 3.75rem;
     height: 0.2rem;
-    background: url("../../assets/img/protop.jpg") no-repeat;
+    background: #fff;
     background-size: cover;
   }
 </style>

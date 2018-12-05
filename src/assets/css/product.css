@@ -28,7 +28,7 @@ img{
 .top{
     width: 3.75rem;
     height: 0.2rem;
-    background: url("../img/protop.jpg") no-repeat;
+    background: #fff no-repeat;
     background-size: cover;
 }
 .banner{
