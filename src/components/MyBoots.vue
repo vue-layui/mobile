@@ -456,6 +456,7 @@
           font-size: .13rem;
           padding: .035rem .025rem;
           border-radius: .03rem;
+          display: flex;
           img{
             width: .15rem;
             height: .14rem;

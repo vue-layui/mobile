@@ -49,8 +49,8 @@
         return {
           list:[
             {
-              imgs1:'../static/img/x1.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x1.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -62,8 +62,8 @@
               prop:''
             },
             {
-              imgs1:'../static/img/x2.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x2.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -75,9 +75,9 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x3.png',
-              imgs2:'../static/img/31.png',
-              imgs3:'../static/img/29.png',
+              imgs1:'./static/img/x3.png',
+              imgs2:'./static/img/31.png',
+              imgs3:'./static/img/29.png',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
               pic1:'38',
@@ -88,8 +88,8 @@
               prop:''
             },
             {
-              imgs1:'../static/img/x4.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x4.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -101,8 +101,8 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x5.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x5.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -114,8 +114,8 @@
               prop:''
             },
             {
-              imgs1:'../static/img/x6.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x6.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -127,8 +127,8 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x7.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x7.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -140,8 +140,8 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x8.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x8.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -153,8 +153,8 @@
               prop:''
             },
             {
-              imgs1:'../static/img/x9.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x9.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -166,8 +166,8 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x10.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x10.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -179,8 +179,8 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x11.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x11.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -192,8 +192,8 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x12.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x12.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -205,8 +205,8 @@
               prop:''
             },
             {
-              imgs1:'../static/img/x1.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x1.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -218,8 +218,8 @@
               prop:''
             },
             {
-              imgs1:'../static/img/x2.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x2.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -231,9 +231,9 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x3.png',
-              imgs2:'../static/img/31.png',
-              imgs3:'../static/img/29.png',
+              imgs1:'./static/img/x3.png',
+              imgs2:'./static/img/31.png',
+              imgs3:'./static/img/29.png',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
               pic1:'38',
@@ -244,8 +244,8 @@
               prop:''
             },
             {
-              imgs1:'../static/img/x4.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x4.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -257,8 +257,8 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x5.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x5.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -270,8 +270,8 @@
               prop:''
             },
             {
-              imgs1:'../static/img/x6.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x6.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -283,8 +283,8 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x7.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x7.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -296,8 +296,8 @@
               prop:'自营'
             },
             {
-              imgs1:'../static/img/x8.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x8.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -309,8 +309,8 @@
               prop:''
             },
             {
-              imgs1:'../static/img/x9.png',
-              imgs2:'../static/img/31.png',
+              imgs1:'./static/img/x9.png',
+              imgs2:'./static/img/31.png',
               imgs3:'',
               title1:'美国·红五特惠限购一支',
               title2:'ECOLIPS依冠离丽唇ECOLIPS依冠离丽唇 摩洛我们滆湖',
@@ -434,6 +434,7 @@
           font-size: .13rem;
           padding: .035rem .025rem;
           border-radius: .03rem;
+          display: flex;
           img{
             width: .15rem;
             height: .14rem;

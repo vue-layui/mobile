@@ -8,13 +8,14 @@ import router from './router'
 import store from  './store'
 
 
-// import './assets/css/car.css'
+import './assets/css/car.css'
 import './assets/css/vip.css';
 import "./assets/css/product.css"
-
+import './assets/css/login.css'
 //require iconfont
 import "./assets/font/iconfont.css"
 import "./assets/fontz/iconfont.css"
+import "./assets/fontn/iconfont.css"
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';

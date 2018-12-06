@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import ShopCar from '@/pages/ShopCar'
 import Product from '@/pages/Product'
 import Vip from '@/pages/vip'
+import Login from '@/pages/login'
 //
 import ShoppingSrote from '../pages/ShoppingStore'
 import ShoppingContent from '../components/shopping/ShoppingContent'
@@ -74,6 +75,17 @@ export default new Router({
     {
       path: '/',
       component: indexPages,
+    },
+    {
+      path:'/Login',
+      component:Login
     }
-  ]
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return {x: 0, y: 0}
+    }
+  }
 })

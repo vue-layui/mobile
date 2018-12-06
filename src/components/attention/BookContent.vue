@@ -40,51 +40,51 @@
         return{
           sliderpic:[
             {
-              "pic":"../static/img/head1.png",
+              "pic":"./static/img/head1.png",
               "name":"墨脱要开",
               "img": [
-                {"pic": "../static/img/girl1.jpg"},
-                {"pic": "../static/img/girl2.jpg"},
-                { "pic": "../static/img/girl3.jpg"},
-                { "pic": "../static/img/girl4.jpg"},
-                { "pic": "../static/img/girl5.jpg"},
-                {"pic": "../static/img/girl6.jpg"}
+                {"pic": "./static/img/girl1.jpg"},
+                {"pic": "./static/img/girl2.jpg"},
+                { "pic": "./static/img/girl3.jpg"},
+                { "pic": "./static/img/girl4.jpg"},
+                { "pic": "./static/img/girl5.jpg"},
+                {"pic": "./static/img/girl6.jpg"}
               ],
               "tit":"分享写真 | 希望你在我身边时也可以像我望向你一样快乐"
             },
             {
-              "pic":"../static/img/head2.png",
+              "pic":"./static/img/head2.png",
               "name":"有光生活馆",
               "img":[
-              {"pic": "../static/img/n1.jpg"},
-              {"pic": "../static/img/n2.jpg"},
-              {"pic": "../static/img/n3.jpg"},
-              {"pic": "../static/img/n4.jpg"},
-              {"pic": "../static/img/n5.jpg"},
-              {"pic": "../static/img/n6.jpg"}
+              {"pic": "./static/img/n1.jpg"},
+              {"pic": "./static/img/n2.jpg"},
+              {"pic": "./static/img/n3.jpg"},
+              {"pic": "./static/img/n4.jpg"},
+              {"pic": "./static/img/n5.jpg"},
+              {"pic": "./static/img/n6.jpg"}
              ],
               "tit":"女生必刷的九部宫廷风电影"
             },
             {
-              "pic":"../static/img/head3.jpg",
+              "pic":"./static/img/head3.jpg",
               "name":"『西西弗书店』",
               "img":[
-                {"pic": "../static/img/s1.jpg"},
-                {"pic": "../static/img/s2.jpg"},
-                {"pic": "../static/img/s3.jpg"},
-                {"pic": "../static/img/s4.jpg"}
+                {"pic": "./static/img/s1.jpg"},
+                {"pic": "./static/img/s2.jpg"},
+                {"pic": "./static/img/s3.jpg"},
+                {"pic": "./static/img/s4.jpg"}
                ],
               "tit":"『西西弗书店』书单推荐 本月书单 手帐爱好者必读指导工具书 如何做好一本手帐"
             },
              {
-               "pic":"../static/img/head4.png",
+               "pic":"./static/img/head4.png",
                "name":"麦丰设计",
                "img":[
-               {"pic": "../static/img/f1.jpg"},
-               {"pic": "../static/img/f2.jpg"},
-               {"pic": "../static/img/f3.jpg"},
-               {"pic": "../static/img/f4.jpg"},
-               {"pic": "../static/img/f5.jpg"}
+               {"pic": "./static/img/f1.jpg"},
+               {"pic": "./static/img/f2.jpg"},
+               {"pic": "./static/img/f3.jpg"},
+               {"pic": "./static/img/f4.jpg"},
+               {"pic": "./static/img/f5.jpg"}
              ],
                "tit":"【130平米简约美式风格装修设计分享】"
              }

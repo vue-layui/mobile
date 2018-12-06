@@ -81,9 +81,14 @@
       }
     },
     created(){
-
-      if(this.List.length === 0){
-          this.select=true
+      // if(this.List.length === 0){
+      //     this.select=true
+      // }
+     parseInt(localStorage.setItem('cot',this.List[0].num))
+     //  console.log(this.List[0])
+      if((this.List[0].num)!==1){
+        this.List[0].num = parseInt(localStorage.getItem('count'))
+        console.log(parseInt(localStorage.getItem(this.List[0].num)))
       }
     },
     methods:{
@@ -109,12 +114,13 @@
       add: function(i) {
         this.listIndex = i
         this.List[i].num++;
-        // this.$store.dispatch("addCount");
+        // localStorage.setItem('cot',parseInt(this.$store.state.count))
+        this.$store.dispatch("addCount");
         this.account()
       },
       cut: function(i) {
         this.listIndex = i
-        // this.$store.dispatch("subCount")
+        this.$store.dispatch("subCount")
         this.List[i].num--;
 
         this.account()

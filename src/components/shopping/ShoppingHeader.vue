@@ -1,7 +1,7 @@
 <template>
     <header>
         <div class="top">
-          <a>登陆</a>
+          <a @click="gologin">登陆</a>
           <a>
             <img src="../../assets/imgs/01.png" alt="">
             <span>大家都在搜"百元解决圣诞礼物"</span>
@@ -48,6 +48,9 @@
           },
           goMyBoots(){
             this.$router.push("/MyBoots")
+          },
+          gologin(){
+            this.$router.push('/Login')
           }
         }
     }
@@ -58,6 +61,10 @@
   header{
     width: 100%;
     height: .87rem;
+    background: #fff;
+    z-index: 99;
+    position: fixed;
+    top: 0;
     .top{
       display: flex;
       align-items: center;

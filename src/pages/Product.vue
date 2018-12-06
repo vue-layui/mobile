@@ -52,7 +52,7 @@
 </script>
 
 <style scoped>
-  @import '../assets/css/product.css'
+  /*@import '../assets/css/product.css'*/
   /* common */
   body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, code, form, input, textarea, p, th, td, fieldset, legend, figure {
     margin: 0;

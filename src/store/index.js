@@ -6,11 +6,12 @@ import Vuex from 'vuex';
 Vue.use(Vuex);
 
 // let count = parseInt(localStorage.getItem('count') || '[]');
+// let count = parseInt(localStorage.setItem('cot'))
 
 // 使用 es6 语法把vuex的实例对象输出
 export default new Vuex.Store({
   state: {
-    count: 1,
+    count: parseInt(localStorage.getItem('cot')),
     list:JSON.parse(localStorage.getItem('temp'))
   },
   getters: {
@@ -22,12 +23,13 @@ export default new Vuex.Store({
   mutations: {
     addCount: state => {
       ++state.count;
-      // localStorage.setItem('count',parseInt(state.count))
+      localStorage.setItem('count',parseInt(state.count))
+      // localStorage.getItem('cot',parseInt(state.count))
     },
     addNumCount: (state, n) => {
       state.count+=n;
       //保存到localstorage
-      // localStorage.setItem('count',parseInt(state.count))
+      localStorage.setItem('count',parseInt(state.count))
     },
     //自减
     subCount: state=>{

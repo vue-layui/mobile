@@ -11,6 +11,11 @@
 <script>
     export default {
         name: "attentionFoot",
+      data(){
+          return{
+            item:null
+          }
+      },
         methods:{
           goshop(){
             this.$router.push('/ShoppingSrote')
@@ -29,15 +34,18 @@
           }
         },
       watch:{
-        '$route' (to, from) {
-          window.scroll(0,0)
-        }
+        // '$route' (to, from) {
+        //   window.scroll(0,0)
+        // }
       }
 
     }
 </script>
 
 <style  lang="scss" scoped>
+  .listietm{
+    font-size: 30px;
+  }
 .index_foot{
   position:fixed;
   bottom:0;

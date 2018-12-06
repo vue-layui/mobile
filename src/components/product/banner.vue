@@ -1,5 +1,5 @@
 <template>
- <div>
+ <div class="K-try">
   <div class="banner">
     <div class="banner1">
       <!--<rotation2 class="rot2"></rotation2>-->
@@ -13,7 +13,7 @@
       </a>
     </div>
     <div class="goOn">
-      <p>
+      <p @click="goback">
         <i class="iconfont icon-fanhui"></i>
       </p>
       <p>
@@ -27,15 +27,24 @@
 <script>
     export default {
         name: "banner",
+        methods:{
+          goback(){
+            this.$router.go(-1)
+          }
+        }
     }
 </script>
 
 <style scoped>
+  .K-try{
+    position: relative;
+  }
   .banner{
     width: 3.75rem;
     height: 4.33rem;
     border-bottom: 1px solid #eaeaea;
-    position: relative;
+    position: absolute;
+    top: 0;
     display: flex;
     flex-direction: column;
   }

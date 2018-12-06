@@ -54,66 +54,66 @@
                 ],
                 productList:[
                     {
-                        propic:'../static/img/product1.jpg',
+                        propic:'./static/img/product1.jpg',
 
                         protit:'SK-II嫩肤清莹露230ml',
                         oldprice:'￥528',
-                        logo:'../static/img/logo.jpg',
+                        logo:'./static/img/logo.jpg',
                         nowprice:'￥498'
                     },
                     {
-                        propic:'../static/img/product2.jpg',
+                        propic:'./static/img/product2.jpg',
                         protit:'Saint Laurent圣罗兰莹亮口红…',
                         oldprice:'￥259',
-                        logo:'../static/img/logo.jpg',
+                        logo:'./static/img/logo.jpg',
                         nowprice:'￥246'
                     },
                     {
-                        propic:'../static/img/product3.jpg',
+                        propic:'./static/img/product3.jpg',
                         protit:'VT范特CICA老虎气垫 14*2/盒 #21',
                         oldprice:'￥169',
-                        logo:'../static/img/logo.jpg',
+                        logo:'./static/img/logo.jpg',
                         nowprice:'￥149'
                     } 
                 ],
                 proList:[
                     {
-                        propic:'../static/img/product4.jpg',
+                        propic:'./static/img/product4.jpg',
                         protit:'Kobayashi小林制药洗眼液 500ml',
                         oldprice:'￥99',
-                        logo:'../static/img/logo.jpg',
+                        logo:'./static/img/logo.jpg',
                         nowprice:'￥82'
                     },
                     {
-                        propic:'../static/img/product5.jpg',
+                        propic:'./static/img/product5.jpg',
                         protit:'Sesderma C-vit美白保湿精华',
                         oldprice:'￥188',
-                        logo:'../static/img/logo.jpg',
+                        logo:'./static/img/logo.jpg',
                         nowprice:'￥179'
                     },
                     {
-                        propic:'../static/img/product6.jpg',
+                        propic:'./static/img/product6.jpg',
                         protit:'Aveeno艾维诺 儿童每日倍护洗发',
                         oldprice:'￥88',
-                        logo:'../static/img/logo.jpg',
+                        logo:'./static/img/logo.jpg',
                         nowprice:'￥108'
                     } 
                 ],
                 pList:[
                     {
-                        propic:'../static/img/product7.jpg',
+                        propic:'./static/img/product7.jpg',
                         protit:'BOTANIST 清爽型洗护套装 洗发水…',
                         oldprice:'￥229',
                         nowprice:'￥398'
                     },
                     {
-                        propic:'../static/img/product8.jpg',
+                        propic:'./static/img/product8.jpg',
                         protit:'SABON 身体磨砂膏600g 芒果奇异果',
                         oldprice:'￥186',
                         nowprice:'￥267'
                     },
                     {
-                        propic:'../static/img/product9.jpg',
+                        propic:'./static/img/product9.jpg',
                         protit:'CLAYGE 温冷SPA蓬松洗发水 500ml',
                         oldprice:'￥129',
                         nowprice:'￥195'

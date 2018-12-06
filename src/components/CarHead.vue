@@ -1,7 +1,7 @@
 <template>
   <div class="K-head">
     <div class="hello">
-      <a> < </a>
+      <i class="iconfont icon-zuojiantou" @click="goback"></i>
       <a><b>购物车</b></a>
       <a>管理</a>
     </div>
@@ -17,6 +17,11 @@
     name: 'CarHead',
     data() {
       return {}
+    },
+    methods:{
+      goback(){
+        this.$router.go(-1)
+      }
     }
   }
 </script>

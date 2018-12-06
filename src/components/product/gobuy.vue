@@ -11,7 +11,7 @@
     <a class="gobuyA">
       <i class="iconfont icon-daohanggouwuche"></i>
       <p>购物车</p>
-      <span>1</span>
+      <span>{{this.$store.state.count}}</span>
     </a>
     <a @click="save">
       加入购物车
@@ -34,8 +34,9 @@
               'pic': '../../static/img/L2.png',
               'small':'75ml',
               'single': 518,
-              'num':2,
+              'num':1,
               'show':false
+              // 'price':parseInt(localStorage.getItem('count'))
             }
             shoplist=JSON.stringify(shoplist)
             localStorage.setItem('temp',shoplist)
