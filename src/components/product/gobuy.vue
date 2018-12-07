@@ -28,7 +28,7 @@
         methods:{
           save(){
             this.$router.push('/Car')
-            var shoplist={
+            var shoplist=[{
               'title':'kkw卡戴珊海外旗舰店',
               'name':'kkw卡戴珊 栀愈系 颜值担当',
               'pic': '../../static/img/L2.png',
@@ -36,8 +36,16 @@
               'single': 518,
               'num':1,
               'show':false
-              // 'price':parseInt(localStorage.getItem('count'))
-            }
+            },
+              {
+                  title: '小红书福利社',
+                  name: '女王的权杖薄纱黑管口红💄',
+                  pic: '../../static/img/L1.png',
+                  small: '黑管亮面 001 3.5g',
+                  single: 859,
+                  num: 1,
+                  show: true
+                }]
             shoplist=JSON.stringify(shoplist)
             localStorage.setItem('temp',shoplist)
           }
