@@ -1,0 +1,138 @@
+@charset"utf-8";
+/*css document*/
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size:26.67vw;
+}
+body{
+    background: #fff;
+	display: flex;
+	flex-direction: column;
+	font-family:"微软雅黑",Arial;
+}
+img{
+	display: block;
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+ol,ul,li{
+	list-style: none;
+}
+/* header */
+.mb{
+	width: 100%;
+	height: .26rem;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+.close{
+    display: flex;
+}
+.cont .icon-guanbi{
+    color: #999999;
+    font-size: .24rem;
+    margin-left: .35rem;
+    margin-top: .35em;
+}
+.cont h3{
+    color: #333333;
+    font-size: .2rem;
+    text-align: center;
+    margin-top: .25rem;
+}
+.phoneLogin{
+    display: flex;
+    font-size: .16rem;
+    color: #999999;
+    margin: .4rem auto;
+}
+.phoneLogin span{
+    display: flex;
+    border-bottom: 1px solid #cccccc;
+    padding: .1rem;
+}
+.phoneLogin span .iconfont{
+    margin-top: .02rem;
+}
+.txt{
+    color: #cccccc;
+    font-size: .16rem;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    padding: .1rem;
+    outline:none;
+}
+.phoneLogin .icon-xiajiantou{
+    color: #cccccc;
+}
+.sureBtn{
+    width: 2.6rem;
+    height: .44rem;
+    background: #e6e6e6;
+    color: #ffffff;
+    font-size: .2rem;
+    line-height: .44rem;
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.passLogin{
+    font-size: .15rem;
+    font-weight: 600;
+    color: #6790db;
+    text-align: center;
+    margin-top: .2rem;
+}
+.AppLogin{
+    width: 100%;
+    position: fixed;
+    bottom: .6rem;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginTit{
+    color: #999999;
+    font-size: .14rem;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    display: inline-block;
+    width: .16rem;
+    height: 1px;
+    background: #999999;
+    margin: .1rem;
+}
+.AppIcon{
+    width: 2.6rem;
+    font-size: .15rem;
+    display: flex;
+    justify-content: space-between;
+    margin: .2rem;
+}
+.AppIcon a span{
+    color: #000;
+}
+.AppIcon .iconfont{
+    display: inline-block;
+    font-size: .25rem;
+    margin: .05rem;
+}
+.AppIcon .icon-weixin{
+    color: #96ddb1;
+}
+.AppIcon .icon-qq1{
+    color: #89cbfa;
+}
+.AppIcon .icon-weibo{
+    color: #eb5863;
+}
