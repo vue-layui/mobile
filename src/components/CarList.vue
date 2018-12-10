@@ -3,11 +3,12 @@
 
     <ul>
       <p v-show="select">{{msg}}</p>
-      <li class="K-li" v-for="(i,index) in List" :key="index">
+      <li class="K-li" v-for="(i,index) in Lists" :key="index">
         <div class="List">
           <a class="ListTit">
             <span class="K-ok" v-show="!i.show" @click="choose(index)"></span>
-            <span class="K-on" v-show="i.show" @click="choose(index)"></span><i class="K-home">🏠</i>{{i.title}}</a>
+            <span class="K-on" v-show="i.show" @click="choose(index)"></span>
+            <i class="K-home">🏠</i>{{i.title}}</a>
           <div class="K-datail" :key="index" v-for="(p , index ) in lis">
             <span class="K-ok" v-show="!i.show" @click="choose(index)"></span>
             <span class="K-on" v-show="i.show" @click="choose(index)"></span>
@@ -16,10 +17,10 @@
               <h3>{{p.title2}}</h3>
               <i></i>
               <span class="ListPrice">${{p.pic1}}</span>
-              <div class="ListBox">
-                 <button @click="cut(index)" :disabled="i.num === 1">-</button>
-                <input v-model="i.num" @click="choose(index)">
-                 <button @click="add(index)">+</button>
+              <div class="ListBox" v-for="(p , index ) in lis">
+                 <button class="cut" :disabled="i.num === 1" @click="cut(index)">-</button>
+                <input class="num"  @click="choose(index)">
+                 <button class="add" @click="add(index)">+</button>
               </div>
             </div>
           </div>
@@ -52,10 +53,17 @@
     name: "CarList",
       props:["lis"],
     data() {
+
       return {
         select:false,
         msg:'还没有商品',
-        List: [
+        number:0,
+        Lists:[
+
+
+
+            // JSON.parse(localStorage.getItem('list'))
+
           // {
           //   title: '小红书福利社',
           //   name: '女王的权杖薄纱黑管口红💄',
@@ -74,24 +82,37 @@
           //   num:2,
           //   show:false
           // },
-          JSON.parse(localStorage.getItem('temp'))
+
+
         ],
         allShow: false,
         accountNum: 0,
         listIndex: 0
       }
     },
+
     created(){
-      // if(this.List.length === 0){
-      //     this.select=true
-      // }
+        //接受新传进来的值
+        var data=JSON.parse(localStorage.getItem('list'))
+        this.Lists=this.Lists.push(data)
+
      parseInt(localStorage.setItem('cot',this.List[0].num))
      //  console.log(this.List[0])
       if((this.List[0].num)!==1){
         this.List[0].num = parseInt(localStorage.getItem('count'))
-        console.log(parseInt(localStorage.getItem(this.List[0].num)))
+        // console.log(parseInt(localStorage.getItem(this.List[0].num)))
       }
+
+
+
     },
+      mounted(){
+        $(".add").click(function(){
+            this.number++;
+            $('num').val(this.number)
+        })
+      },
+
     methods:{
       allChoose: function() {
         this.allShow = !this.allShow
@@ -109,10 +130,10 @@
           }
         })
       },
-      // saveIndex: function(index) {
-      //   this.listIndex = index
-      // },
-      add: function(i) {
+      saveIndex: function(index) {
+        this.listIndex = index
+      },
+      add: function() {
         this.listIndex = i
         this.List[i].num++;
         // localStorage.setItem('cot',parseInt(this.$store.state.count))

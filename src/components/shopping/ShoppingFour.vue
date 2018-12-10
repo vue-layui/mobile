@@ -326,6 +326,7 @@
             margin-right: .06rem;
           }
           span:nth-of-type(2){
+
             background: #ff2642;
             color: #ffffff;
             font-size: .13rem;
@@ -334,6 +335,7 @@
           }
           span:nth-of-type(3){
             color: black;
+            display: flex;
             font-size: .13rem;
             padding: .035rem .025rem;
             border-radius: .03rem;

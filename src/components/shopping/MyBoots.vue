@@ -59,7 +59,8 @@
               pic3:'',
               pref1:'10元劵',
               pref2:'满88减8',
-              prop:''
+              prop:'',
+              num:1
             },
             {
               imgs1:'./static/img/x2.png',
@@ -72,7 +73,8 @@
               pic3:'',
               pref1:'10元劵',
               pref2:'',
-              prop:'自营'
+              prop:'自营',
+                num:1
             },
             {
               imgs1:'./static/img/x3.png',

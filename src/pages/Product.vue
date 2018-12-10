@@ -1,8 +1,8 @@
 <template>
   <div>
     <top></top>
-    <Banner  :ban="lists"></Banner>
     <Rotation2 :rot="lists"></Rotation2>
+    <Banner  :ban="lists"></Banner>
     <price :pri="lists"></price>
     <afterSale></afterSale>
     <synopsis></synopsis>
@@ -57,7 +57,6 @@
     },
   }
 </script>
-
 <style scoped>
   /*@import '../assets/css/product.css'*/
   /* common */

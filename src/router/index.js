@@ -15,7 +15,6 @@ import MyBoots from '../components/shopping/MyBoots'
 //
 import indexPages from '@/pages/indexPages'
 Vue.use(Router);
-
 export default new Router({
   routes: [
     {
@@ -81,11 +80,14 @@ export default new Router({
       component:Login
     }
   ],
-  scrollBehavior (to, from, savedPosition) {
-    if (savedPosition) {
-      return savedPosition
-    } else {
-      return {x: 0, y: 0}
+
+    scrollBehavior (to, from, savedPosition) {
+        if (savedPosition) {
+            return savedPosition
+        } else {
+            return { x: 0, y: 0 }
+        }
     }
-  }
+
+
 })

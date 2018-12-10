@@ -386,6 +386,7 @@
           border-radius: .03rem;
         }
         span:nth-of-type(3){
+          display: flex;
           color: black;
           font-size: .13rem;
           padding: .035rem .025rem;

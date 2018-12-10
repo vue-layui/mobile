@@ -1,25 +1,18 @@
 <template>
-  <div class="slide">
-    <div class="slideshow">
-      <div class="banner">
-        <div class="out_container">
-          <div class="in_container">
-            <div class="swiper-wrapper" :key="index" v-for="(p , index) in rot">
-              <div class="swiper-slide"><img :src="p.imgs1" alt=""></div>
-              <div class="swiper-slide"><img src="../../assets/imgs/03.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="../../assets/imgs/04.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="../../assets/imgs/05.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="../../assets/imgs/06.jpg" alt=""></div>
-              <div class="swiper-slide"><img src="../../assets/imgs/07.jpg" alt=""></div>
-              <!--<div class="swiper-slide"><img src="" alt=""></div>
-              <div class="swiper-slide"><img src="" alt=""></div>-->
-            </div>
-          </div>
+  <div class="banner">
+    <div class="out_container">
+      <div class="in_container">
+        <div class="swiper-wrapper" :key="index" v-for="(p , index) in rot">
+          <div class="swiper-slide"><img :src="p.imgs1" alt=""></div>
+          <div class="swiper-slide"><img src="../../assets/imgs/03.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="../../assets/imgs/04.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="../../assets/imgs/05.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="../../assets/imgs/06.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="../../assets/imgs/07.jpg" alt=""></div>
+          <!--<div class="swiper-slide"><img src="" alt=""></div>
+          <div class="swiper-slide"><img src="" alt=""></div>-->
         </div>
       </div>
-    </div>
-    <div class="bar">
-      <span></span>
     </div>
   </div>
 </template>
@@ -69,62 +62,69 @@
         // }
     }
 </script>
-
 <style scoped>
-  * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  .slide {
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    position: absolute;
-    top:0.2rem;
-  }
-  .slideshow {
+  .banner {
     width: 100%;
     height: 3.58rem;
+    /*margin-top: -.385rem; */
   }
-  li {
-    position: absolute;
-  }
-  img {
+  .banner .swiper-container {
     width: 100%;
-    height: 3.58rem;
-  }
-  .bar {
-    position: absolute;
+    height: 100%; }
+  .banner .swiper-slide {
     width: 100%;
-    top:230px;
-    margin: 0 auto;
-    z-index: 10;
+    height: 100%;
     text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  .banner .swiper-slide img {
+    width: 100%;
+    height: 3.58rem;
+    border:none;
   }
-  .bar span {
-    width: 0.05rem;
-    height: 0.02rem;
-    border: 1px solid;
-    background: white;
-    display: inline-block;
-    margin-right: 10px;
+  .banner .out_container {
+    width: 100%;
+    height: 1.4rem;
+    /*margin: 39px auto;*/
+    position: relative;
+    /*outline: 1px solid black;*/
   }
-  .active {
-    background: red !important;
+  .banner .in_container {
+    margin: 0 auto;
+    overflow: hidden; }
+
+  .screen {
+    width: 3.44rem;
+    height: .515rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    /*border-bottom: .01rem solid #e6e6e6;*/
   }
-  .image-enter-active {
-    transform: translateX(0);
-    transition: all 1.5s ease;
+  .screen a {
+    font-size: .14rem;
+    color: #4d5256;
+    padding: 0  .15rem;
+    /*border-right: .01rem solid #e6e6e6; */
   }
-  .image-leave-active {
-    transform: translateX(-100%);
-    transition: all 1.5s ease;
-  }
-  .image-enter {
-    transform: translateX(100%);
-  }
-  .image-leave {
-    transform: translateX(0);
-  }
+  .screen a:nth-of-type(4) {
+    border: 0; }
+  .screen a:nth-of-type(4) img {
+    width: .12rem;
+    height: .13rem;
+    margin-right: .06rem; }
 </style>
+

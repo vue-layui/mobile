@@ -45,7 +45,8 @@
     height: 4.33rem;
     border-bottom: 1px solid #eaeaea;
     /*position: absolute;*/
-    /*top: 0;*/
+    /*top: .8rem;*/
+    margin-top: -3.5rem;
     display: flex;
     flex-direction: column;
   }
